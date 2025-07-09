@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -459,7 +452,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%67%69%75%73%65%70%70%65.%76%69%74%65%72%62%6F@%69%77%72.%75%6E%69-%68%65%69%64%65%6C%62%65%72%67.%64%65", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/vepe99", "_blank");
         },
       },{
         id: 'social-inspire',
@@ -467,6 +467,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://inspirehep.net/authors/1010907", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0001-1864-8476", "_blank");
         },
       },{
         id: 'social-rss',
